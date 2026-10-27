@@ -1,15 +1,13 @@
-# PoleSite — In development
+# polesite
 
-A responsive, poster-style holding page for `polesite.l.cd`.
+Holding page for PoleSite, a small static-site host. Upload a folder, get an address.
 
 ## Files
-- `index.html` — landing page
-- `polesite-icon.svg` — site icon and favicon
+- `index.html` — the page
+- `polesite-icon.svg` — icon and favicon
 
 ## Preview
-Keep both files in the same folder and open `index.html` in a browser.
+Keep both files together and open `index.html` — no build step, no external fonts, no scripts.
 
-## GitHub Pages
-Upload both files to the repository root, then enable **Settings → Pages → Deploy from a branch**, choosing `main` and `/ (root)`.
-
-No build step, external fonts, or third-party scripts are required. DNS is not configured by these files.
+## Deploy
+GitHub Pages, branch `main`, root. Custom domain: `polesite.l.cd`.
