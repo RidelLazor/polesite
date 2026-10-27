@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d0817">
+  <meta name="description" content="PoleSite is currently under development.">
+  <title>PoleSite — 404</title>
+
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0d0817;
+      --surface: #171025;
+      --border: #2a203b;
+      --purple: #a879ff;
+      --purple-bright: #bd96ff;
+      --text: #f7f2ff;
+      --muted: #b8accb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(
+          ellipse at 50% 43%,
+          rgba(111, 54, 190, 0.13),
+          transparent 48%
+        ),
+        var(--bg);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system,
+        BlinkMacSystemFont, "Segoe UI", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Navbar */
+
+    nav {
+      height: 74px;
+      padding: 0 clamp(20px, 6vw, 88px);
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid rgba(177, 140, 230, 0.13);
+      background: rgba(13, 8, 23, 0.65);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 11px;
+      color: var(--text);
+      font-size: 20px;
+      font-weight: 750;
+      letter-spacing: -0.8px;
+      text-decoration: none;
+    }
+
+    .brand-name span {
+      color: var(--purple-bright);
+    }
+
+    .logo {
+      width: 36px;
+      height: 36px;
+      display: grid;
+      place-items: center;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 11px;
+      background: linear-gradient(145deg, #a16bff, #6935c6);
+      box-shadow: 0 3px 16px rgba(127, 67, 225, 0.2);
+    }
+
+    .logo svg {
+      width: 21px;
+      height: 21px;
+    }
+
+    /* Main content */
+
+    main {
+      min-height: calc(100svh - 74px);
+      display: grid;
+      place-items: center;
+      padding: 48px 24px 90px;
+      text-align: center;
+    }
+
+    .message {
+      width: 100%;
+      max-width: 580px;
+    }
+
+    .main-logo {
+      width: 88px;
+      height: 88px;
+      display: grid;
+      place-items: center;
+      margin: 0 auto 32px;
+      border: 1px solid rgba(255, 255, 255, 0.19);
+      border-radius: 25px;
+      background: linear-gradient(145deg, #a16bff 0%, #713bd3 100%);
+      box-shadow:
+        0 12px 40px rgba(104, 48, 196, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    }
+
+    .main-logo svg {
+      width: 46px;
+      height: 46px;
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--purple-bright);
+      font-size: clamp(68px, 12vw, 96px);
+      font-weight: 800;
+      line-height: 1;
+      letter-spacing: -5px;
+    }
+
+    p {
+      margin: 20px 0 0;
+      color: var(--muted);
+      font-size: clamp(16px, 2.5vw, 19px);
+      font-weight: 450;
+      line-height: 1.65;
+      letter-spacing: -0.2px;
+    }
+
+    /* Small screens */
+
+    @media (max-width: 520px) {
+      nav {
+        height: 66px;
+        padding: 0 20px;
+      }
+
+      .brand {
+        font-size: 19px;
+      }
+
+      .logo {
+        width: 34px;
+        height: 34px;
+      }
+
+      main {
+        min-height: calc(100svh - 66px);
+        padding: 36px 22px 64px;
+      }
+
+      .main-logo {
+        width: 76px;
+        height: 76px;
+        margin-bottom: 28px;
+        border-radius: 22px;
+      }
+
+      .main-logo svg {
+        width: 40px;
+        height: 40px;
+      }
+
+      h1 {
+        letter-spacing: -3.5px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="brand" href="/" aria-label="PoleSite home">
+      <span class="logo">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="white"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <path d="M6 2.8h8l5 5V21H6a2 2 0 0 1-2-2V4.8a2 2 0 0 1 2-2Z"/>
+          <path d="M14 3v6h5"/>
+          <path d="M12 17v-6m-3 3 3-3 3 3"/>
+        </svg>
+      </span>
+
+      <span class="brand-name">pole<span>site</span></span>
+    </a>
+  </nav>
+
+  <main>
+    <section class="message" aria-labelledby="error-title">
+      <div class="main-logo">
+        <svg
+          viewBox="0 0 48 48"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <path
+            d="M13 5h15l9 9v26H13a3 3 0 0 1-3-3V8a3 3 0 0 1 3-3Z"
+            fill="#faf7ff"
+            stroke="#faf7ff"
+            stroke-width="1.5"
+          />
+          <path d="M28 5v10h9" stroke="#7946df" stroke-width="2"/>
+          <path
+            d="M24 33V22m-6 6 6-6 6 6"
+            stroke="#7946df"
+            stroke-width="3.5"
+          />
+        </svg>
+      </div>
+
+      <h1 id="error-title">404</h1>
+      <p>We're working on the platform</p>
+    </section>
+  </main>
+</body>
+</html>

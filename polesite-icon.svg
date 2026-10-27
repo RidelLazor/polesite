@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 240 240" role="img">
+  <title>PoleSite icon</title>
+  <rect width="240" height="240" rx="56" fill="#7C3AED"/>
+  <rect x="55" y="208" width="62" height="10" rx="5" fill="#DDD6FE"/>
+  <rect x="80" y="38" width="10" height="176" rx="5" fill="#FFFFFF"/>
+  <circle cx="85" cy="32" r="10" fill="#FFFFFF"/>
+  <path d="M90 54H168L192 78V162H90Z" fill="#FFFFFF"/>
+  <path d="M168 54V78H192Z" fill="#DDD6FE"/>
+  <path d="M141 144V98" fill="none" stroke="#7C3AED" stroke-width="9" stroke-linecap="round"/>
+  <path d="M121 116L141 96L161 116" fill="none" stroke="#7C3AED" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
